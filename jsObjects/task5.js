@@ -8,20 +8,19 @@ const users = [
     {
         name: "Anna",
         email: "anna@example.com",
-        age: 27
+        age: 25
     },
     {
-        name: "Alex",
-        email: "alex@example.com",
-        age: 30
+        name: "Alex"
     },
     {
-        name: "Maria",
         email: "maria@example.com",
         age: 22
     }
 ];
 
 for (const { name, email, age } of users) {
-    console.log(name, email, age);
+    console.log("Name:", name ?? "No name");
+    console.log("Email:", email ?? "No email");
+    console.log("Age:", age ?? "No age");
 }
