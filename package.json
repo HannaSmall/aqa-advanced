@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+"scripts": {
+  "test": "jest axiosJestTests --runInBand"
+},
+  "dependencies": {
+    "axios": "^1.20.0"
+  }
+}
